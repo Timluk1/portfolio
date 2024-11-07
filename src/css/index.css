@@ -165,19 +165,6 @@ body {
   line-height: 40px;
 }
 
-@keyframes cursor {
-  0% {
-    border-color: white;
-  }
-  50% {
-    border-color: transparent;
-  }
-}
-@keyframes printed_text {
-  from {
-    width: 0;
-  }
-}
 .footer__icon {
   width: 30px;
   height: 30px;
