@@ -216,6 +216,34 @@ body {
   opacity: 0.7;
 }
 
+.logo-container {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.circle {
+  cursor: pointer;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+.circle:nth-child(1) {
+  background: linear-gradient(145deg, #4e8cff, #1a73e8);
+}
+.circle:nth-child(2) {
+  background: linear-gradient(145deg, #ff6ec7, #ff3d8e);
+  top: 10px;
+  left: 10px;
+}
+.circle:nth-child(3) {
+  background: linear-gradient(145deg, #ffd700, #ffb800);
+  top: 20px;
+  left: 20px;
+}
+
 @media (max-width: 1250px) {
   .footer__nav {
     grid-template-columns: repeat(3, 1fr);
